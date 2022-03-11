@@ -1,0 +1,28 @@
+.markdown-source-view.mod-cm6 .list-bullet:after {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    content: '';
+    pointer-events: none;
+}
+
+.list-bullet:before {
+    font-size: 24px;
+    left: -3px;
+    pointer-events: none;
+    position: absolute;
+    top: -6px;
+    visibility: visible;
+}
+
+.cm-list-1 .list-bullet:before {
+    content: '\2022';
+}
+
+.cm-list-2 .list-bullet:before {
+    content: '\25E6';
+}
+
+.cm-list-3 .list-bullet:before {
+    content: '\25AA';
+}
